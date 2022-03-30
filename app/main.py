@@ -87,4 +87,5 @@ def get_application() -> App:
 
 if __name__ == '__main__':
     app = get_application()
+    logging.info('Application is starting...')
     app.start()
